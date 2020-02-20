@@ -19,8 +19,8 @@
         Downfacing, USB port to the front :       r = 1.5707963,  p = -1.5707963, y = 0,  gamma = -1.5707963
     -->
     <param name="roll_cam"          value="0" />
-    <param name="pitch_cam"         value="-0.2" />
-    <param name="yaw_cam"           value="-1.5707963" />
+    <param name="pitch_cam"         value="0" />
+    <param name="yaw_cam"           value="0" />
     <param name="gamma_world"       value="-1.5707963" />
 
     <node pkg="vision_to_mavros" type="vision_to_mavros_node" name="t265_to_mavros" output="screen" >
